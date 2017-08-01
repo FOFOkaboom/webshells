@@ -1,0 +1,8 @@
+<?php
+
+$cmd = ('ls');
+system($cmd);
+echo "</pre>";
+die;
+
+?>
