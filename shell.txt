@@ -1,7 +1,7 @@
 <?php
 
 $cmd = ('ls');
-exec($cmd);
+passthru($cmd);
 echo "</pre>";
 die;
 
