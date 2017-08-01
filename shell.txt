@@ -1,8 +1,6 @@
 <?php
 
-$cmd = ('ls');
-preg_replace('/.*/e', 'system("whoami");', '');
-echo "</pre>";
-die;
+$output = `ls`;
+echo "<pre>$output</pre>";
 
 ?>
