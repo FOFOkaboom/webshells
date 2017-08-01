@@ -1,6 +1,1 @@
-<?php
-
-$output = `ls`;
-echo "<pre>$output</pre>";
-
-?>
+<?php echo file_get_contents('index.php'); ?>
