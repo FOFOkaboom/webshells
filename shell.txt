@@ -1,7 +1,7 @@
 <?php
 
 $cmd = ('ls');
-system($cmd);
+shell_exec($cmd);
 echo "</pre>";
 die;
 
